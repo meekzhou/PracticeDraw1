@@ -36,7 +36,6 @@ public class Practice11PieChartView extends View {
 //        综合练习
 //        练习内容：使用各种 Canvas.drawXXX() 方法画饼图
 
-
         int w = Utils.getDisplayWidth(this.getContext());
         paint.setColor(Color.rgb(241, 41, 35));
         canvas.drawArc(w / 2 - 300 - 25, 50 - 25, w / 2 + 300 - 25, 650 - 25, -190, 150, true, paint);
